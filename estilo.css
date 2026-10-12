@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    color: white;
+    align-items: center;
+    background-color: beige;
+    font-size: 15px;
+}
+
+footer {
+    background-color: darkmagenta;
+    color: red;
+    padding: 10px 15px ;
+    align-items: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+thead {
+    background-color: #fff;
+    color: magenta;
+    font-size: 1.2em;
+    font-family: cambria, cochin, Georgia, Times;
+}
+
+
+td, th {
+    border: 1px solid;
+    padding: 8px;
+} 
+
+.Menu {display:block;
+    border: 0.2px solid purple;
+    background-color: paleturquoise;
+    padding: 0,2%;
+}

@@ -1,0 +1,38 @@
+.h2{color: red;
+}
+
+.imagen{width: 100px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.parrafo{font-size: 30px;
+    mark: yellow;
+}
+
+.bloque {display:block;
+    border: 1px solid blue;
+    background-color:grey;
+    padding: 3px;
+}
+
+.Menu {display:block;
+    border: 0.2px solid purple;
+    background-color: paleturquoise;
+    padding: 0,2%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.imagen-icono {
+    display: block;
+    margin: 15px auto;   
+    max-width: 180px;   
+}

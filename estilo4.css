@@ -1,0 +1,77 @@
+.Menu {display:block;
+    border: 0.2px solid purple;
+    background-color: paleturquoise;
+    padding: 0,2%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #000;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.contenedor-ejercicio {
+    border: 1px solid #3b629b;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.contenedor-ejercicio h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.menu-horizontal {
+    list-style: none;          
+    padding: 0;
+    margin: 0 0 20px 0;
+    background-color: #6b6b47;   
+    display: flex;               
+    align-items: center;
+    padding: 15px 25px;
+    gap: 30px;                    
+}
+
+.menu-horizontal li a {
+    color: #ffffff;
+    text-decoration: none;       
+    font-size: 1.1em;
+}
+
+.linea-separadora {
+    border: none;
+    border-top: 1px solid #333333;
+    margin: 20px 0;
+}
+
+.menu-vertical {
+    list-style: none;            
+    padding: 0;
+    margin: 0 0 10px 0;
+    width: 150px;                 
+}
+
+.menu-vertical li a {
+    display: block;               
+    background-color: #64dd17;    
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 15px;
+    font-size: 1.1em;
+}
+
+.menu-vertical li a.opcion-activa {
+    background-color: #e50914;   
+}

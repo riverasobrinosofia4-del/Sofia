@@ -1,0 +1,54 @@
+.Menu {display:block;
+    border: 0.2px solid purple;
+    background-color: paleturquoise;
+    padding: 0,2%;
+}
+
+.titulo-tabla {
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.tabla1 {
+    border: 2px solid blue;
+    border-collapse: separate; 
+    border-spacing: 8px;       
+    margin: 0 auto 40px auto;  
+}
+
+.tabla1 th, 
+.tabla1 td {
+    border: 2px solid blue;
+    padding: 10px 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tabla2 {
+    border: 2px solid #d4a017;  
+    border-collapse: collapse; 
+    margin: 0 auto 50px auto;   
+}
+
+.tabla2 th, 
+.tabla2 td {
+    border: 2px solid #d4a017;
+    padding: 12px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tabla2 th {
+    background-color: #e0e0e0;
+}
+
+.tabla2 tr.fila-verde td {
+    background-color: #8bc34a;
+}
+
+.tabla2 tr.fila-gris td {
+    background-color: #e0e0e0;
+}

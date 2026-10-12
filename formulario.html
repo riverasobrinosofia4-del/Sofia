@@ -1,0 +1,169 @@
+<DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formulario</title>
+        
+
+        <link rel="stylesheet" href="estilo.css">
+
+    </head>
+    <body>
+
+            <hearder>
+                    <h2>Menu:</h2>
+
+                    <nav>
+                        <a class="Menu"href="index.html">index</a>
+                        <a class="Menu" href="horario.html">horario</a>
+                        <a class="Menu" href="actividad 1.2.html">actividad 1.2</a>
+                        <a class="Menu" href="actividad 1.3.html">actividad 1.3</a>
+                        <a class="Menu" href="calculadora.html">calculadora</a>
+                        <a class="Menu" href="actividad 1.html">actividad 1</a>
+                        <a class="Menu" href="actividad 2.html">actividad 2</a>
+                        <a class="Menu" href="actividad 2.2.html">actividad 2.2</a>
+                        <a class="Menu" href="actividad 2.3.html">actividad 2.3</a>
+                    </nav>
+                </header>
+            <main>
+                 <form>
+                     <fieldset>
+                          <legend>DATOS</legend>
+                                  <h2>Formulario de contacto:</h2>
+                                  <p>
+                                  <label for="nombre">Nombre</label>
+                                  <input type="text" id="nombre" name="nombre" required/>
+                                  </p>
+                                  <p>
+                                  <label for="apellido">Apellido</label>
+                                  <input type="text" id="apellido" name="apellido" required/>
+                                  </p>
+                                  <p>
+                                <label for="contacto">Apellido</label>
+                                 <input type="text" id="contacto" name="contacto" required/>
+                                 </p>
+                                  <p>
+                                <label for="gmail">Gmail</label>
+                                 <input type="text" id="gmail" name="gmail" required/>
+                                 </p>
+                                  <p>
+                                <label for="contraseña">Contraseña</label>
+                                 <input type="text" id="contraseña" name="contraseña" required/>
+                                 </p>
+                                  <p>
+                                <label for="confirmar contraseña">Confirmar contraseña</label>
+                                 <input type="text" id="confirmar contraseña" name="confirmar contraseña" required/>
+                                 </p>
+                                  <p>
+                                <label for="telefono">Telefono</label>
+                                 <input type="text" id="telefono" name="telefono" required/>
+                                 </p>
+                                  <p>
+                                <label for="DNI">DNI</label>
+                                 <input type="text" id="DNI" name="DNI" required/>
+                                 </p>
+                                  <p>
+                                <label for="localidad">Localidad</label>
+                                 <input type="text" id="localidad" name="localidad" required/>
+                                 </p>
+                                  <p>
+                                <label for="provincia">Provincia</label>
+                                 <input type="text" id="provincia" name="provincia" required/>
+                                 </p>
+                                  <p>
+                                <label for="calle, número">Calle, número</label>
+                                 <input type="text" id="calle, número" name="calle, número" required/>
+                                 </p>
+                                  <p>
+                                <label for="edad">Edad</label>
+                                 <input type="text" id="edad" name="edad" required/>
+                                 </p>
+                                 <fieldset>
+                                 <fieldset>
+                            
+                            <legend>Listas</legend>
+
+                             <!-- SELECT -->
+                                 <p>
+                               <label for="provincia">Provincia:</label>
+
+                                <select id="provincia" name="provincia">
+                                  <option value="">Selecciona una provincia</option>
+
+                                 <option value="cordoba">Córdoba</option>
+                                 <option value="ciudad_real">Ciudad Real</option>
+                                  <option value="toledo">Toledo</option>
+                                   <option value="jaen">Jaén</option>
+                             </select>
+                            </p>
+
+                          <!-- SELECT CON GRUPOS -->
+                              <p>
+                              <label for="estudios">Estudios:</label>
+
+                                 <select id="estudios" name="estudios">
+                                <optgroup label="Informática">
+                                 <option value="dam">DAM</option>
+                                   <option value="daw">DAW</option>
+                                   <option value="asir">ASIR</option>
+                                </optgroup>
+
+                            <optgroup label="Electrónica">
+                          <option value="teleco">Sistemas de Telecomunicaciones</option>
+
+                          <option value="electronica">Electrónica</option>
+                         </optgroup>
+                         </select>
+                        </p>
+
+                         <p>
+                           <label for="lenguajes"> Lenguajes favoritos: </label>
+
+                          <select id="lenguajes" name="lenguajes" multiple="" size="4">
+                          <option value="html">HTML</option>
+                          <option value="css">CSS</option>
+                          <option value="javascript">JavaScript</option>
+                          <option value="java">Java</option>
+                    </select>
+                      </p>
+                 </fieldset>
+                  <fieldset>
+                     <legend>Otros elementos</legend>
+
+                <!-- FILE -->
+                <p>
+               <label for="archivo"> Selecciona un archivo: </label>
+
+               <input type="file" id="archivo" name="archivo">
+              </p>
+
+                 <!-- DATALIST -->
+                  <p>
+                   <label for="navegador"> Navegador favorito: </label>
+
+                    <input list="navegadores" id="navegador" name="navegador">
+
+                           <datalist id="navegadores">
+                          <option value="Chrome"></option>
+                            <option value="Firefox"></option>
+                            <option value="Edge"></option>
+                          <option value="Brave"></option>
+                     </datalist>
+                    </p>
+
+                  <!-- HIDDEN -->
+                <input type="hidden" name="id_usuario" value="123">
+                </fieldset>
+                                 
+                                 <input type="submit" value= "enviar"/>
+                                 <input type="reset" value= "borrar"/>
+                            </legend>
+                        </fieldset>
+                </form>
+        </main>
+        <footer>
+             <p>CIFP VIRGEN DE GRACIA</p>
+        </footer>
+
+</body>
+</html>

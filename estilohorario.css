@@ -1,0 +1,18 @@
+.ENT {background-color: red;}
+.BDD {background-color: #d1ecf1;}
+.SIST {background-color: blue}
+.IP {background-color: purple}
+.DIAS {background-color: pink}
+.LM {background-color: orange}
+.DG {background-color: yellow}
+.PG {background-color: green}
+.IPE {background-color: brown}
+.PIDA {background-color:grey}
+.SOST {background-color: aquamarine}
+
+
+.Menu {display:block;
+    border: 0.2px solid purple;
+    background-color: paleturquoise;
+    padding: 0,2%;
+}
